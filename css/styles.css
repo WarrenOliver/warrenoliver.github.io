@@ -10963,3 +10963,43 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* Projects Section */
+#projects .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+#projects .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#projects .card-img-top {
+  width: 100%;
+  height: 200px; /* or adjust as needed */
+  object-fit: cover;
+}
+
+#projects .card-body {
+  padding: 15px;
+}
+
+#projects .card-title {
+  margin-bottom: 15px;
+}
+
+#projects .btn-primary {
+  color: #fff;
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+
+.disabled-button {
+  pointer-events: none;
+  color: grey;
+  cursor: default;
+  background-color: grey !important;
+  text-emphasis-color: white !important;
+  border-color: grey !important;
+}
