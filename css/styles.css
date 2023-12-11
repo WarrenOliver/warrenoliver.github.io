@@ -10920,7 +10920,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #C89945;
+  background-color: #C89960;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -11002,4 +11002,16 @@ section.resume-section .resume-section-content {
   background-color: grey !important;
   text-emphasis-color: white !important;
   border-color: grey !important;
+}
+
+.about-button {
+  color: white;
+  background-color: #C89945;
+  border-color: #C89945;
+}
+
+.about-button:hover {
+  color: black;
+  background-color: #C89945;
+  border-color: #C89945;
 }
